@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/doctors_world/static/css/main.fec44c17.css",
+    "main.js": "/doctors_world/static/js/main.13e5b76d.js",
+    "static/media/symptoms.jpg": "/doctors_world/static/media/symptoms.d9bd1bdf865b20d10931.jpg",
+    "static/media/adult.jpg": "/doctors_world/static/media/adult.a71e82665bb62ffe2ad4.jpg",
+    "static/media/kid.jpg": "/doctors_world/static/media/kid.e7a09ce114d61821b5ac.jpg",
+    "static/media/symptom3.png": "/doctors_world/static/media/symptom3.74d11e8eafbc866a864b.png",
+    "index.html": "/doctors_world/index.html",
+    "main.fec44c17.css.map": "/doctors_world/static/css/main.fec44c17.css.map",
+    "main.13e5b76d.js.map": "/doctors_world/static/js/main.13e5b76d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fec44c17.css",
+    "static/js/main.13e5b76d.js"
+  ]
+}
