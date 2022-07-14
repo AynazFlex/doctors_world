@@ -1,38 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Roboto:wght@700;900&display=swap');
+
+
 .App {
+  max-width: 1264px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 247, 252, 0.583333) 25.87%, #CAF2FA 100%);
+  color: #223867;
+  font-family: 'Roboto', 'sans-serif';
+  font-style: normal;
+}
+
+.App-header_title {
   text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 34px 0 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header_subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  padding: 0 0 43px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-main_patient-types {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 303px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-main_info-container {
+  margin: 0 36px;
+  display: flex;
+  gap: 36px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-main_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2A477D;
+  margin: 89px 36px 273px 36px;
+}
+
+.App-main_title span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #068CA6;
+}
+
+.App-main_info-container-left, .App-main_info-container-right {
+  display: flex;
+  width: calc((100% - 36px) / 2);
+  flex-direction: column;
+}
+
+.App-main_info-container-left {
+  justify-content: space-between;
+}
+
+.App-main_info-container-right {
+  gap: 26px;
+}
+
+.App-footer {
+  height: 302px;
 }

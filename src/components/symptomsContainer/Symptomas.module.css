@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 315px;
+    height: 315px;
+    border-radius: 50%;
+}
+
+.type_img {
+    display: block;
+    border-radius: 50%;
+    background: url("../../images/symptoms.jpg") no-repeat, linear-gradient(180deg, rgba(255, 255, 255, 0) 59.9%, #FFFFFF 85.42%);
+    width: 315px;
+    height: 315px;
+    opacity: 0.4;
+}
+
+.type_text {
+    position: absolute;
+    top: 231px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+    color: #068CA6;
+}
+
+.symptom_img, .symptom_block {
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.symptom_block {
+    position: absolute;
+    cursor: pointer;
+}
+
+.description {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #223867;
+    z-index: 1;
+    width: max-content
+}
+
+.symptom_block:before {
+    content: "";
+    display: block;
+    background: url("../../images/plus.png") no-repeat;
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: -7px;
+    left: -7px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}

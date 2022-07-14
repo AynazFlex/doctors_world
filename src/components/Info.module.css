@@ -1,0 +1,14 @@
+.info {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    color: #223867;
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid #068CA6;
+    box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+    border-radius: 10px;
+    padding: 16px;
+    text-align: left;
+}
